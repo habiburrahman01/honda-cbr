@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-weight: 400;
+}
+p{
+  color: #9b9797;
+  font-size: 12px;
+}
+
+.text-bold{
+  font-weight: 900;
+  color: #020524;
+}
+
+/* header part start*/
+.header-section {
+  background: #264653;
+}
+#navbarlink{
+  font-size: 14px;
+
+}
+#navbarlink a:hover{
+
+  color: #e76f51 !important;
+
+}
+.login-btn {
+  width: 70px;
+  background: #e76f51;
+  border-radius: 5px;
+  padding-left: 1rem !important;
+}
+@media screen and (max-width:991){
+.login-btn{
+  padding-left: 0px;
+}
+  
+}
+.login-btn:hover{
+  background: #ff5e00;
+}
+#navbarlink #login-btn-a:hover{
+    color:#fff !important;
+}
+.purchase-modal {
+  width: 150px;
+  background: #e76f51;
+  border-radius: 5px;
+}
+.cus-btn:hover{
+  background-color:#ff5e00 ;
+}
+/* header part end */
+
+/* featured part start*/
+.feature-text {
+  color: #e76f51;
+  font-style: bold;
+  font-size: 10px;
+}
+.underline {
+  width: 60px;
+  height: 1px;
+  background: #e76f51;
+}
+.feature-section img {
+  height: 245px;
+  width: 290px;
+}
+.feature-img {
+  filter: grayscale(100%);
+}
+/*featured part end */
+
+/*-card start*/
+.card-btn {
+  width: 150px;
+  background: #e76f51;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+.card-btn:hover {
+  background: #fff;
+  color: #e76f51;
+  border: 1px solid #e76f51;
+}
+/*card end*/
+
+/*clients part start */
+.clients-feedback span {
+  color: #e76f51;
+}
+.user-img img {
+  margin-top: 20px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.clients-feedback-text {
+  color: #6c6c6c;
+  font-size: 16px;
+}
+.fa-star {
+  color: #e77c40;
+}
+.clients-feedback h5 {
+  color: #23a6f0;
+}
+/*clients part end */
+
+/* faq start */
+.faq span {
+  color: #e76f51;
+}
+/*contact us start */
+.contact-us span {
+  color: #e76f51;
+}
+
+/* location */
+.map{
+  display: flex;
+  justify-content: center;
+}
+/* footer start */
+footer{
+  background: #020524;
+}
+li {
+  list-style-type: none;
+  margin: 2px 8px;
+}
+a {
+  text-decoration: none;
+  color:#fff8f8;
+}
+footer a:hover{
+  color:#9b9797;
+}
+footer h3{
+  font-size: 14px;
+}
+footer p {
+  font-size: 12px;
+  color: #fff8f8 !important;
+  margin-left: 6px;
+}
